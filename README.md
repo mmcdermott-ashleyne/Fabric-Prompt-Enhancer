@@ -2,13 +2,17 @@
 
 ## What and Why
 
-Fabric’s core strength is helping people collect, refine, and integrate prompts, known as **Patterns**.  
-The main Fabric repository includes many general-purpose patterns, but this collection focuses specifically on **DevOps and Data Engineering** workflows.
+This project uses Fabric as a **prompt amplifier**—a system for transforming rough ideas into clear, powerful, and ready-to-use prompts.  
+Fabric’s Patterns provide the structure for rewriting, clarifying, and strengthening prompts before they are sent to larger hosted models like GPT Enterprise.
 
-These patterns are designed for:
-- High-quality prompt improvement  
-- Prompt rewriting and structuring  
-- Enhancing engineering workflows for data pipelines, DevOps tasks, SQL, Fabric/ADF, orchestration, and related domains  
+While the main Fabric repository includes broad, general-purpose patterns, this collection focuses on **DevOps and Data Engineering** needs.  
+These patterns act as specialized prompt amplifiers for:
+
+- Improving and sharpening technical prompts  
+- Rewriting rough input into structured, high-signal instructions  
+- Supporting workflows across data pipelines, DevOps automation, SQL engineering, Fabric/ADF migrations, orchestration logic, and related tasks  
+
+The result is a streamlined way to turn raw engineering thoughts into high-quality prompts that produce better outputs with less effort.  
 
 ## Dependencies
 
