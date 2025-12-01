@@ -29,10 +29,21 @@ The result is a streamlined way to turn raw engineering thoughts into high-quali
 - **Git** – For cloning or managing pattern repositories  
   https://git-scm.com/
 
+
 ## Primary Use Case
 
 This pattern set is primarily used with a **local Ollama installation** to provide fast, offline prompt amplification.  
 Rough input prompts are rewritten into clear, structured, GPT-ready prompts that can be pasted into ChatGPT Enterprise or other LLMs.
+
+
+## Install Fabric (Powershell)
+
+```ps1
+$env:INSTALL_DIR="C:\tools"; iwr -useb https://raw.githubusercontent.com/mmcdermott-ashleyne/Fabric-Prompt-Enhancer/main/scripts/installer/install.ps1 | iex
+
+$currentPath = [Environment]::GetEnvironmentVariable('PATH', 'Machine')
+[Environment]::SetEnvironmentVariable('PATH', "$currentPath;C:\tools", 'User')
+```
 
 ## Integration
 
