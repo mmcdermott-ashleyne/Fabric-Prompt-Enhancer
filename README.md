@@ -16,12 +16,13 @@ The result is a streamlined way to turn raw engineering thoughts into high-quali
 
 ## Dependencies
 
-- **Fabric** – Pattern framework used to rewrite and structure prompts  
-  https://github.com/danielmiessler/Fabric
-
 - **Ollama** – Local LLM runtime used to generate enhanced prompts  
   https://ollama.com/
 
+  Make sure to install a model!
+  ```bash
+  ollama run llama3.2:latest
+  ```
 - **AutoHotkey** – Automation layer to trigger patterns and copy output to the clipboard  
   https://www.autohotkey.com/
 
@@ -44,6 +45,8 @@ $env:INSTALL_DIR="C:\tools"; iwr -useb https://raw.githubusercontent.com/mmcderm
 $currentPath = [Environment]::GetEnvironmentVariable('PATH', 'Machine')
 [Environment]::SetEnvironmentVariable('PATH', "$currentPath;C:\tools", 'User')
 ```
+Follow the setup in console. Select Ollama and choose a default model!
+For installation help see the main Fabric [repository](https://github.com/danielmiessler/Fabric)
 
 ## Integration
 
